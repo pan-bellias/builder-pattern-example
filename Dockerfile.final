@@ -1,4 +1,4 @@
-FROM lukondefmwila/react:build-stage as build
+FROM ghcr.io/pan-bellias/react:build-stage as build
 
 FROM nginx 
 EXPOSE 3000
