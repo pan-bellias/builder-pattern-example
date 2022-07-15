@@ -5,7 +5,7 @@ docker build -t lukondefmwila:build . -f Dockerfile.build
 
 docker create --name extract lukondefmwila:build
 
-docker cp extract:/app/build ./app 
+docker cp extract:/app/build ./app
 
 docker rm -f extract 
 
